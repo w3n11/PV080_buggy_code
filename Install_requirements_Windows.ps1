@@ -14,6 +14,7 @@ function InstallRequirements() {
 	pip install --upgrade pip
 	pip install wheel
 	pip install --requirement .\requirements.txt
+	pip install flask
 }
 
 ActivateVirtual
